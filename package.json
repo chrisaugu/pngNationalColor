@@ -1,0 +1,11 @@
+{
+  "name": "@chrisaugu/png-national-color",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Christian Augustyn",
+  "license": "ISC"
+}
