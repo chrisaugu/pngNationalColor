@@ -1,15 +1,28 @@
 {
   "name": "@chrisaugu/png-national-color",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
+  "keywords": [
+    "png",
+    "national",
+    "color",
+    "palette",
+    "colors",
+    "national-colors",
+    "national-color"
+  ],
   "author": "Christian Augustyn",
   "license": "ISC",
   "dependencies": {
     "@chrisaugu/png-national-color": "^1.0.0",
     "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisaugu/pngNationalColor.git"
   }
 }
