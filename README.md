@@ -13,25 +13,31 @@ Or with Yarn:
 ```bash
 yarn add @chrisaugu/png-national-color
 ```
-## 🛠 How to Use
+## 🛠️ How to Use
 Import the package and access PNG's national colors in different formats:
 
 ```javascript
 const pngColors = require('@chrisaugu/png-national-color');
 
-// Get all colors
-console.log(pngColors.all); 
+console.log(pngColors.color.black);
+console.log(pngColors.color.white);
+console.log(pngColors.color.red);
+console.log(pngColors.color.yellow);
+console.log(pngColors.emoji_color);
+console.log(pngColors.emoji);
+```
+<!-- // Get all colors
+// console.log(pngColors.all); 
 
 // Get specific color formats
-console.log(pngColors.hex); // HEX values
-console.log(pngColors.rgb); // RGB values
-console.log(pngColors.hsl); // HSL values
+// console.log(pngColors.hex); // HEX values
+// console.log(pngColors.rgb); // RGB values
+// console.log(pngColors.hsl); // HSL values
 
 // Access individual colors
-console.log(pngColors.hex.black); // '#000000'
-console.log(pngColors.rgb.red);   // [207, 20, 43]
-console.log(pngColors.hsl.gold);  // [42, 100%, 50%]
-```
+// console.log(pngColors.hex.black); // '#000000'
+// console.log(pngColors.rgb.red);   // [207, 20, 43]
+// console.log(pngColors.hsl.gold);  // [42, 100%, 50%] -->
 
 Available Colors
 * Black (Traditional)
